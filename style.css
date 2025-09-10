@@ -17,13 +17,16 @@ body {
       text-align: center;
     }
 
-    #menu li {
-      margin: 2px;
+   #menu li {
+      width: 200px;
+      height: 45px;
+      font-size: 20px;
       padding: 4px 10px;
       border-radius: 5px;
       background-color: #7b1ff3;
       color: #fff;
     }
+
 
     #menu li:hover {
       background-color: #17ccec;
@@ -57,3 +60,59 @@ body {
       overflow: hidden;
       position: absolute;
     }
+
+
+
+/* -------------------------- media -------------------*/
+
+    @media (max-width: 80rem){
+    html{
+    font-size: 75%;
+    }
+
+}
+
+@media (max-width: 64rem){
+    html{
+    font-size: 62.5%;
+    }
+    
+
+}
+
+@media (max-width: 48rem){
+ html{
+    font-size: 50%;
+ }
+
+   
+}
+
+
+@media (max-width: 36rem){
+   html{
+    font-size: 37.5%;
+ }
+
+  #menu {
+      width: 350px;
+      height: 40px;
+    }
+   
+
+     #menu li {
+         width: 350px;
+      height: 40px;
+     font-size: 40px;
+    }
+
+   
+}
+
+@media (max-width: 23rem){
+   html{
+    font-size: 25%;
+ }
+   
+   
+}
