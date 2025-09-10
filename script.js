@@ -1170,7 +1170,7 @@
       "delete/my-image.jpeg",
        "delete/my-image2.png",
         "delete/md.heic",
-        "delete/md1.jpg",
+        "delete/md1.jpg"
       
       ];
       const randImg = Math.floor(Math.random() * imageLis.length);
